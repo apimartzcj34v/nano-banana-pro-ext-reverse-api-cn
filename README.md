@@ -1,10 +1,27 @@
-# Nano Banana Pro Ext — 逆向 route (简体中文)
+# Nano Banana Pro API (`gemini-3-pro-image-preview`)
 
-> **1K $0.03; 4K $0.04** · model ID `gemini-3-pro-image-preview` · **逆向/逆向工程** route.
+<!-- conv-kit:v1 -->
 
-**[查看实时价格](https://go.apimart.ai/k-766b67)** · **[领取 API Key](https://go.apimart.ai/k-83faa5)**
+<p align="center">
+  <img src="assets/badges/price.svg" alt="observed unit price"> <img src="assets/badges/billing.svg" alt="billing model"> <img src="assets/badges/compat.svg" alt="OpenAI-compatible endpoint">
+</p>
 
-nano-banana-pro-ext-reverse-api-cn 是 **逆向** 的 Nano Banana Pro Ext 接入仓库：调用 ID `gemini-3-pro-image-preview`，与官方转接（`nano-banana-pro (gemini-3-pro-image-preview-official)`）并行存在，单价更低。
+<p align="center">
+  <img src="assets/01-product-hero-perfume.jpg" width="820" alt="Nano Banana Pro (gemini-3-pro-image-preview) output generated through APIMart">
+</p>
+
+> **from $0.03 per image** (4K $0.04) — one OpenAI-compatible endpoint at `https://api.apimart.ai/v1`, no monthly plan required. *(observed 2026-10-12)*
+
+**[Get an API key](https://go.apimart.ai/k-83faa5)** · **[Live pricing](https://go.apimart.ai/k-526a3a)** · **[Model page](https://go.apimart.ai/k-742c5e)** · [⚡ 60-second quickstart](#quickstart)
+
+**Why teams call Nano Banana Pro (`gemini-3-pro-image-preview`) through APIMart**
+
+- **One key, entire catalog.** The same `https://api.apimart.ai/v1` base URL and `Authorization` header reach Nano Banana Pro (`gemini-3-pro-image-preview`) and 300+ other image, video and language models — switch the `model` field, not your client.
+- **$1 minimum, pay as you go.** No subscription and no prepaid plan to size up front: top up from $1 and spend it on calls. There is no free quota to burn through first, so the price in this table is the price you pay.
+- **The charge comes back in the response.** Every completed task reports the amount billed (`cost` / `credits_cost`), so a spend number is read per call instead of guessed at month end.
+- **Async by design.** Submit, take the `task_id`, poll `GET /v1/tasks/{id}` — batching and retries are ordinary queue work, not a bespoke integration.
+
+<!-- /conv-kit:v1 -->
 
 ## 价格 (snapshot 2026-09-28)
 
